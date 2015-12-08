@@ -2,18 +2,17 @@
  * Mongo db version v2.4.10
  * Mon Jun 23 17:11:20.504 git version: e3d78955d181e475345ebd60053a4738a4c5268a
  *
- * Includes Inheritance Tax Specific database queries
- * https://github.com/asaas/InheritanceTax
- * 
+ * Includes sample database queries
+  * 
  * @Author :Laxmikant Gurnalkar
  * Date: Mon Jun 23 05:15:00 2014 +0530
  * ************************************************* 
  * To run this script :
- *  * From Unix/Shell   : $ mongo ihtx ihtx.updatedb.js
- *  * From Windows 		: $ c:\MongoDB\bin\mongo.exe ihtx ihtx.updatedb.js
+ *  * From Unix/Shell   : $ mongo dbname mongo_utils.js
+ *  * From Windows 		: $ c:\MongoDB\bin\mongo.exe dbname mongo_utils.js
  *  * From mongo shell :
- *       $ use ihtx
- *       $ load("/path/to/ihtx.update.js")         
+ *       $ use dbname 
+ *       $ load("/path/to/mongo_utils.js")         
  * **************************************************
  */
 
